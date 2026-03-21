@@ -77,7 +77,7 @@ code {
 """, unsafe_allow_html=True)
 
 # ---------------- CONFIG ----------------
-API_KEY = "AIzaSyDpvyDsHl5auXZBRBzuQSBXoX0hX5IlLOY"
+API_KEY = ""
 
 st.set_page_config(page_title="AI Business Optimizer", layout="wide")
 
