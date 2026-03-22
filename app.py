@@ -3,6 +3,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.ensemble import IsolationForest
 import requests
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+API_KEY = os.getenv("GEMINI_API_KEY")
 
 st.markdown("""
 <style>
@@ -77,7 +83,7 @@ code {
 """, unsafe_allow_html=True)
 
 # ---------------- CONFIG ----------------
-API_KEY = ""
+
 
 st.set_page_config(page_title="AI Business Optimizer", layout="wide")
 
